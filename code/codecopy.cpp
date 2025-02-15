@@ -211,7 +211,7 @@ void handel(){
     C.resize(SIZE);
     R.resize(SIZE);
     P.resize(SIZE);
-    generationNow++;
+    generationNow++;//
     initialize();
     while (generationNow <= generation){
         evaluation();
